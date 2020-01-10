@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+}
+nav {
+  -webkit-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.75);
+}
+.card {
+  background: #fff;
+  border: 1px solid #d9534f;
+}
+.card-header {
+  background: #d9534f;
+  color: #fff;
+  text-align: center;
+}
+.buton-submit {
+  background: none;
+  color: #d9534f;
+  border-radius: 0%;
+  border: 1px solid #d9534f;
+}
+.button-delete {
+  background: none;
+  color: #d9534f !important;
+  border-radius: 0%;
+  border: 1px solid #d9534f;
+}
+.buton-submit:hover {
+  background: #d9534f;
+  color: #fff;
+  transition: 1s all ease;
+}
+.button-delete:hover {
+  background: #d9534f;
+  color: #fff !important;
+  transition: 1s all ease;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  right: 50%;
+  color: #fff;
+  background: #d9534f;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
